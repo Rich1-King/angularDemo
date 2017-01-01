@@ -1,4 +1,7 @@
- angular.module('app').config(CoreRouter);
+
+(function () {
+  "use strict"; 
+angular.module('app').config(CoreRouter);
 
     CoreRouter.$inject = ['$stateProvider', '$urlRouterProvider'];
 
@@ -20,3 +23,4 @@
 
         $urlRouterProvider.otherwise('/login');
     }
+ ｝）（）；
